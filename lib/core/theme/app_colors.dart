@@ -18,5 +18,11 @@ class AppColors {
 
   static const Color captchaCheck = Color(0xFF34A853);
 
+  static const Color navShadow = Color(0x26000000);
+
+  static const Color bookingsHeaderShadow = Color(0x0D000000);
+
+  static const Color bookingsIllustrationShadow = Color(0x36000000);
+
   static const Color error = Color(0xFFFF4949);
 }

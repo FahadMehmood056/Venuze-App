@@ -20,27 +20,60 @@ class $AssetsIconsGen {
   /// File path: assets/icons/apple.svg
   SvgGenImage get apple => const SvgGenImage('assets/icons/apple.svg');
 
+  /// File path: assets/icons/bell.svg
+  SvgGenImage get bell => const SvgGenImage('assets/icons/bell.svg');
+
+  /// File path: assets/icons/bookings.svg
+  SvgGenImage get bookings => const SvgGenImage('assets/icons/bookings.svg');
+
+  /// File path: assets/icons/explore.svg
+  SvgGenImage get explore => const SvgGenImage('assets/icons/explore.svg');
+
   /// File path: assets/icons/facebook.svg
   SvgGenImage get facebook => const SvgGenImage('assets/icons/facebook.svg');
 
   /// File path: assets/icons/google.svg
   SvgGenImage get google => const SvgGenImage('assets/icons/google.svg');
 
+  /// File path: assets/icons/home.svg
+  SvgGenImage get home => const SvgGenImage('assets/icons/home.svg');
+
+  /// File path: assets/icons/profile.svg
+  SvgGenImage get profile => const SvgGenImage('assets/icons/profile.svg');
+
+  /// File path: assets/icons/prohibition.svg
+  SvgGenImage get prohibition =>
+      const SvgGenImage('assets/icons/prohibition.svg');
+
   /// File path: assets/icons/recaptcha.svg
   SvgGenImage get recaptcha => const SvgGenImage('assets/icons/recaptcha.svg');
 
   /// List of all assets
-  List<SvgGenImage> get values => [apple, facebook, google, recaptcha];
+  List<SvgGenImage> get values => [
+    apple,
+    bell,
+    bookings,
+    explore,
+    facebook,
+    google,
+    home,
+    profile,
+    prohibition,
+    recaptcha,
+  ];
 }
 
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/calendar.svg
+  SvgGenImage get calendar => const SvgGenImage('assets/images/calendar.svg');
+
   /// File path: assets/images/logo.png
   AssetGenImage get logo => const AssetGenImage('assets/images/logo.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [logo];
+  List<dynamic> get values => [calendar, logo];
 }
 
 abstract final class Assets {

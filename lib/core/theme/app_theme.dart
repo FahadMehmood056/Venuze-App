@@ -20,6 +20,7 @@ class AppTheme {
       surface: AppColors.white,
       onSurface: AppColors.textPrimary,
       error: AppColors.error,
+      onError: AppColors.white,
     ),
 
     inputDecorationTheme: InputDecorationTheme(

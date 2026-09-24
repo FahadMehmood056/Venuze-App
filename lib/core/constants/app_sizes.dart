@@ -21,7 +21,7 @@ class AppSizes {
   static const double borderWidth = 1;
 
   static const double buttonHeight = 48;
-  static const double socialButtonHeight = 55;
+  static const double socialButtonHeight = 50;
   static const double eyeIconSize = 19;
   static const double socialIconSize = 23;
   static const double compactButtonHeight = 44;
@@ -52,4 +52,50 @@ class AppSizes {
 
   static const double loaderSmall = 20;
   static const double loaderLarge = 30;
+
+  static const double navIconSize = 20;
+
+  static const double bottomNavHeight = 75;
+  static const double navShadowBlur = 40;
+  static const double navShadowOffsetY = -15;
+
+  static const double bookingsHeaderHeight = 80;
+  static const double bookingsHeaderPaddingLeft = 15;
+  static const double bookingsHeaderPaddingRight = 25;
+  static const double bookingsHeaderLogoWidth = 38.82;
+  static const double bookingsHeaderLogoHeight = 26;
+  static const double bookingsHeaderShadowOffsetY = 2;
+  static const double bookingsHeaderShadowBlur = 2;
+
+  static const double notificationButtonSize = 44;
+  static const double notificationIconWidth = 17;
+  static const double notificationIconHeight = 20;
+  static const double notificationBadgeSize = 20;
+  static const double notificationBadgeBorderWidth = 3;
+  static const double notificationBadgeOverhang = 10;
+
+  static const double bookingsEmptyContentWidth = 277;
+  static const double bookingsIllustrationWidth = 130;
+  static const double bookingsIllustrationHeight = 127;
+  static const double bookingsCalendarSize = 110;
+
+  static const double bookingsStatusCircleSize = 67;
+  static const double bookingsStatusIconSize = 44;
+  static const double bookingsStatusCircleLeft = 64;
+  static const double bookingsStatusCircleTop = 60;
+
+  static const double bookingsIllustrationShadowOffsetY = 4;
+  static const double bookingsIllustrationShadowBlur = 27;
+
+  static const double bookingsIllustrationToTitle = 29;
+  static const double bookingsTitleToSubtitle = 5;
+  static const double bookingsSubtitleToButton = 20;
+
+  static const double bookingsEmptyTitleFontSize = 20;
+  static const double bookingsEmptyTitleLineHeight = 20;
+  static const double bookingsEmptySubtitleFontSize = 12;
+  static const double bookingsEmptySubtitleLineHeight = 20;
+
+  static const double compactButtonTextLineHeight = 19;
+  static const double compactButtonTextFontSize = 14;
 }

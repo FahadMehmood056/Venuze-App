@@ -33,4 +33,12 @@ class AppStrings {
 
   static const String noInternet = 'No internet connection';
   static const String somethingWentWrong = 'Something went wrong';
+
+  static const String notifications = 'Notifications';
+  static const String noUnreadNotifications = 'No unread notifications';
+
+  static String unreadNotifications(int count) => '$count unread notifications';
+
+  static String notificationBadgeLabel(int count) =>
+      count > 9 ? '9+' : '$count';
 }
