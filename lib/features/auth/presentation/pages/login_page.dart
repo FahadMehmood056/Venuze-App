@@ -45,12 +45,12 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   Future<void> _onLogin() async {
+    if (!(_formKey.currentState?.validate() ?? false)) return;
+
     if (!_controller.isRobotChecked) {
       AppSnackBar.error(AppStrings.captchaRequired);
       return;
     }
-
-    if (!(_formKey.currentState?.validate() ?? false)) return;
 
     FocusScope.of(context).unfocus();
 
