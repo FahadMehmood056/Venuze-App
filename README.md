@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-
-
-https://github.com/user-attachments/assets/84cc0ee2-0d0e-4b7d-9947-5292dc51be22
-
-# venuze_app
-=======
 # Venuze
->>>>>>> ccc64e5 (updated readme and constants)
 
 A Flutter implementation of the Venuze login and bookings screens, built from
 a Figma design and integrated with the Venuze login API.
@@ -86,15 +78,15 @@ Password: 12345678
 
 ## Tech stack
 
-| Package                  | Why                                                                      |
-| ------------------------ | ------------------------------------------------------------------------ |
-| `get`                    | State management, dependency injection and routing                       |
-| `dio`                    | HTTP client, used here with `FormData` since the API expects form fields |
-| `dartz`                  | `Either<Failure, T>` so error cases are part of the return type          |
-| `flutter_secure_storage` | Persisting the session tokens                                            |
-| `flutter_screenutil`     | Proportional scaling from the Figma frame                                |
-| `flutter_svg`            | Icon rendering                                                           |
-| `flutter_gen`            | Type-safe asset and font references                                      |
+| Package | Why |
+|---|---|
+| `get` | State management, dependency injection and routing |
+| `dio` | HTTP client, used here with `FormData` since the API expects form fields |
+| `dartz` | `Either<Failure, T>` so error cases are part of the return type |
+| `flutter_secure_storage` | Persisting the session tokens |
+| `flutter_screenutil` | Proportional scaling from the Figma frame |
+| `flutter_svg` | Icon rendering |
+| `flutter_gen` | Type-safe asset and font references |
 
 State management is GetX, as confirmed before starting.
 
@@ -224,13 +216,6 @@ field with no way to reveal the input is a usability gap.
 **reCAPTCHA.** Implemented as a functional checkbox that gates the login
 button, but it performs no verification, as no reCAPTCHA site key was provided.
 
-**Social login.** The Facebook, Google and Apple buttons are UI only. Real
-social sign-in needs OAuth client IDs and platform configuration that were not
-part of the task.
-
-**Sign up and forgot password.** UI only, since no endpoints or designs were
-provided for them.
-
 **User model.** The login response returns a large user object, including role
 permissions and a profile. All of it is modelled, so the session carries
 everything the API returns rather than a subset.
@@ -243,6 +228,3 @@ would be added.
 **Logout.** No logout endpoint was provided, and the design has no logout
 control. Clearing the stored session locally is supported by
 `AuthLocalDataSource.clearSession()`.
-
-**Home, Explore and Profile tabs.** No designs or endpoints were provided, so
-these tabs are present in the navigation bar but empty.
