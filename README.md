@@ -25,7 +25,7 @@ Responsiveness is handled in four ways rather than by scaling alone:
   from the 375 x 812 Figma frame, so the layout keeps the design's proportions
   on any screen. Raw Figma values live in `AppSizes` and `.w` / `.h` / `.r` are
   applied at the point of use, so the source of each number stays visible.
-- **`Expanded` and `Flexible`** are used wherever content should share the
+- **`Expanded`** is used wherever content should share the
   available width instead of taking a fixed size: the dividers either side of
   "or continue with", the labels in the social buttons, and the four items in
   the bottom navigation bar.
