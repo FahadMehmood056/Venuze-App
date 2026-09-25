@@ -10,6 +10,7 @@ class AppStrings {
   static const String password = 'Password';
   static const String forgotPassword = 'Forgot Password?';
   static const String notARobot = "I'm not a robot";
+  static const String captchaRequired = "Please confirm you're not a robot";
   static const String login = 'Login';
   static const String orContinueWith = 'or continue with';
   static const String loginWithFacebook = 'Log in with Facebook';
@@ -41,4 +42,28 @@ class AppStrings {
 
   static String notificationBadgeLabel(int count) =>
       count > 9 ? '9+' : '$count';
+
+  static const String connectionFailed =
+      'Unable to connect. Check your connection and try again.';
+  static const String requestTimedOut =
+      'The request timed out. Please try again.';
+  static const String invalidCredentials = 'Incorrect email or password';
+  static const String sessionExpired =
+      'Your session has expired. Please sign in again.';
+  static const String accessDenied =
+      'You do not have permission to perform this action.';
+  static const String tooManyRequests =
+      'Too many attempts. Please try again later.';
+  static const String serverUnavailable =
+      'The server is unavailable. Please try again later.';
+  static const String invalidRequest = 'The request could not be completed.';
+  static const String invalidResponse =
+      'The server returned an unexpected response. Please try again.';
+  static const String secureConnectionFailed =
+      'Unable to establish a secure connection.';
+  static const String sessionStorageFailed =
+      'Unable to save or restore your session. Please try again.';
+  static const String requestCancelled = 'Request cancelled.';
+  static const String checkEnteredDetails =
+      'Please check the details you entered.';
 }

@@ -26,10 +26,7 @@ class AppTheme {
     inputDecorationTheme: InputDecorationTheme(
       filled: true,
       fillColor: AppColors.white,
-      constraints: BoxConstraints(
-        minHeight: AppSizes.fieldHeight.h,
-        maxHeight: AppSizes.fieldHeight.h,
-      ),
+      constraints: BoxConstraints(minHeight: AppSizes.fieldHeight.h),
       isDense: true,
       hintStyle: AppTextStyles.textTheme.bodyLarge?.copyWith(
         color: AppColors.textHint,

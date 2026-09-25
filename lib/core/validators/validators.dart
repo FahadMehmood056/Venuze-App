@@ -1,17 +1,39 @@
+import '../constants/app_strings.dart';
+
 class Validators {
   Validators._();
 
+  static final RegExp _emailPattern = RegExp(r'^[^\s@]+@[^\s@]+\.[^\s@]+$');
+
   static String? email(String? value) {
-    final v = value?.trim() ?? '';
-    if (v.isEmpty) return 'Email is required';
-    if (!v.contains('@') || !v.contains('.')) return 'Enter a valid email';
+    final email = value?.trim() ?? '';
+
+    if (email.isEmpty) return AppStrings.emailRequired;
+
+    if (!_emailPattern.hasMatch(email)) {
+      return AppStrings.emailInvalid;
+    }
+
+    return null;
+  }
+
+  static String? loginPassword(String? value) {
+    if (value == null || value.isEmpty) {
+      return AppStrings.passwordRequired;
+    }
+
     return null;
   }
 
   static String? password(String? value) {
-    final v = value ?? '';
-    if (v.isEmpty) return 'Password is required';
-    if (v.length < 6) return 'Password must be at least 6 characters';
+    if (value == null || value.isEmpty) {
+      return AppStrings.passwordRequired;
+    }
+
+    if (value.length < 6) {
+      return AppStrings.passwordTooShort;
+    }
+
     return null;
   }
 }
