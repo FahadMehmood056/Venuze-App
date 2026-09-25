@@ -32,7 +32,6 @@ class AppStrings {
   static const String passwordTooShort =
       'Password must be at least 6 characters';
 
-  static const String noInternet = 'No internet connection';
   static const String somethingWentWrong = 'Something went wrong';
 
   static const String notifications = 'Notifications';
@@ -48,22 +47,15 @@ class AppStrings {
   static const String requestTimedOut =
       'The request timed out. Please try again.';
   static const String invalidCredentials = 'Incorrect email or password';
-  static const String sessionExpired =
-      'Your session has expired. Please sign in again.';
   static const String accessDenied =
       'You do not have permission to perform this action.';
-  static const String tooManyRequests =
-      'Too many attempts. Please try again later.';
   static const String serverUnavailable =
       'The server is unavailable. Please try again later.';
   static const String invalidRequest = 'The request could not be completed.';
   static const String invalidResponse =
       'The server returned an unexpected response. Please try again.';
-  static const String secureConnectionFailed =
-      'Unable to establish a secure connection.';
   static const String sessionStorageFailed =
       'Unable to save or restore your session. Please try again.';
-  static const String requestCancelled = 'Request cancelled.';
   static const String checkEnteredDetails =
       'Please check the details you entered.';
 }

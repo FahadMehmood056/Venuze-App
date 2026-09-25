@@ -4,7 +4,6 @@ class AppSizes {
   static const double designWidth = 375;
   static const double designHeight = 812;
 
-  static const double paddingXS = 4;
   static const double paddingSmall = 8;
   static const double paddingMedium = 16;
   static const double paddingLarge = 24;
@@ -15,8 +14,6 @@ class AppSizes {
   static const double topPadding = 24;
 
   static const double fieldHeight = 48;
-  static const double fieldPaddingH = 20;
-  static const double fieldPaddingV = 15;
   static const double fieldGap = 10;
   static const double borderWidth = 1;
 
@@ -28,11 +25,8 @@ class AppSizes {
   static const double compactButtonWidth = 120;
 
   static const double radiusXS = 3;
-  static const double radiusSmall = 6;
   static const double radiusMedium = 10;
   static const double radiusSocial = 9;
-  static const double radiusLarge = 16;
-
   static const double logoWidth = 48;
   static const double logoHeight = 32;
 
@@ -90,12 +84,4 @@ class AppSizes {
   static const double bookingsIllustrationToTitle = 29;
   static const double bookingsTitleToSubtitle = 5;
   static const double bookingsSubtitleToButton = 20;
-
-  static const double bookingsEmptyTitleFontSize = 20;
-  static const double bookingsEmptyTitleLineHeight = 20;
-  static const double bookingsEmptySubtitleFontSize = 12;
-  static const double bookingsEmptySubtitleLineHeight = 20;
-
-  static const double compactButtonTextLineHeight = 19;
-  static const double compactButtonTextFontSize = 14;
 }
