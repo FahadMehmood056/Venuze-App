@@ -3,7 +3,6 @@
 A Flutter implementation of the Venuze login and bookings screens, built from
 a Figma design and integrated with the Venuze login API.
 
-**Repository:** https://github.com/FahadMehmood056/Venuze-App
 **Download APK:** [app-release.apk](https://github.com/FahadMehmood056/Venuze-App/releases/download/v1.0.0/app-release.apk)
 
 ---
